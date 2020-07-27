@@ -1,0 +1,382 @@
+{
+  "$ref": "#/definitions/CV",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "CV": {
+      "additionalProperties": false,
+      "properties": {
+        "birthYear": {
+          "type": "number"
+        },
+        "career": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "from": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "CN": {
+                        "type": "string"
+                      },
+                      "DE": {
+                        "type": "string"
+                      },
+                      "EN": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "CN"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "CN": {
+                      "type": "string"
+                    },
+                    "DE": {
+                      "type": "string"
+                    },
+                    "EN": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "CN"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "title": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "to": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "CN": {
+                        "type": "string"
+                      },
+                      "DE": {
+                        "type": "string"
+                      },
+                      "EN": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "CN"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "from",
+              "to",
+              "title",
+              "description",
+              "items"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "education": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "from": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "CN": {
+                        "type": "string"
+                      },
+                      "DE": {
+                        "type": "string"
+                      },
+                      "EN": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "CN"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "CN": {
+                      "type": "string"
+                    },
+                    "DE": {
+                      "type": "string"
+                    },
+                    "EN": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "CN"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "title": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "to": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "CN": {
+                        "type": "string"
+                      },
+                      "DE": {
+                        "type": "string"
+                      },
+                      "EN": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "CN"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "from",
+              "to",
+              "title",
+              "description",
+              "items"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "email": {
+          "type": "string"
+        },
+        "github": {
+          "additionalProperties": false,
+          "properties": {
+            "displayCalendar": {
+              "type": "boolean"
+            },
+            "username": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "username",
+            "displayCalendar"
+          ],
+          "type": "object"
+        },
+        "location": {
+          "additionalProperties": false,
+          "properties": {
+            "CN": {
+              "type": "string"
+            },
+            "DE": {
+              "type": "string"
+            },
+            "EN": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "CN"
+          ],
+          "type": "object"
+        },
+        "name": {
+          "additionalProperties": false,
+          "properties": {
+            "CN": {
+              "type": "string"
+            },
+            "DE": {
+              "type": "string"
+            },
+            "EN": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "CN"
+          ],
+          "type": "object"
+        },
+        "skills": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "title": {
+                "additionalProperties": false,
+                "properties": {
+                  "CN": {
+                    "type": "string"
+                  },
+                  "DE": {
+                    "type": "string"
+                  },
+                  "EN": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CN"
+                ],
+                "type": "object"
+              },
+              "type": {
+                "enum": [
+                  "certificate",
+                  "course",
+                  "professional training"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "type",
+              "title",
+              "description"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "birthYear",
+        "email",
+        "location",
+        "education",
+        "skills"
+      ],
+      "type": "object"
+    }
+  }
+}

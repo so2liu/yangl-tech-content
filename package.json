@@ -1,0 +1,23 @@
+{
+  "name": "yangl-tech-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so2liu/yangl-tech-content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/so2liu/yangl-tech-content/issues"
+  },
+  "homepage": "https://github.com/so2liu/yangl-tech-content#readme",
+  "dependencies": {
+    "ts-json-schema-generator": "^0.70.2"
+  }
+}
