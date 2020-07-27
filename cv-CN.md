@@ -1,8 +1,13 @@
+---
+title: "个人简历"
+date: "2020-07-27"
+---
+
 # 刘扬
 
 ---
 
-- **Email** so2liu@gmail.com
+- **Email** [so2liu@gmail.com](mailto:so2liu@gmail.com)
 
 - **微信** so2liu
 
@@ -42,7 +47,7 @@
 
 ### 个人主页：[yangl.tech](yangl.tech)
 
-技术栈：Typescript, Next.js GraphQL
+技术栈：Typescript, Next.js GraphQL, AWS Hosting
 
 实现的功能：
 
