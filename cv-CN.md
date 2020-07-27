@@ -1,6 +1,8 @@
 ---
+name: "刘扬"
 title: "个人简历"
 date: "2020-07-27"
+githubUsername: "so2liu"
 ---
 
 # 刘扬
@@ -33,7 +35,7 @@ date: "2020-07-27"
 
 ### 帮德国餐馆 Komari 做在线订餐网站 [komari.eat-togo.com](komari.eat-togo.com)
 
-技术栈：Typescript, React, MaterialUI, Firebase
+技术栈：TypeScript, React, MaterialUI, Firebase
 
 实现的功能有：
 
@@ -47,7 +49,7 @@ date: "2020-07-27"
 
 ### 个人主页：[yangl.tech](yangl.tech)
 
-技术栈：Typescript, Next.js GraphQL, AWS Hosting
+技术栈：TypeScript, Next.js GraphQL, AWS Hosting
 
 实现的功能：
 
@@ -56,7 +58,7 @@ date: "2020-07-27"
 
 ### 小型博客网站的前/后端 [blog-app](https://blog-app-yangl.herokuapp.com/)
 
-技术栈：Typescript, React, Express
+技术栈：TypeScript, React, Express
 
 实现的功能：
 
@@ -65,7 +67,7 @@ date: "2020-07-27"
 
 ### 丑丑番茄时钟 [ugly-pomodoro.web.app](ugly-pomodoro.web.app)
 
-技术栈：Typescript, React, Redux, Redux-Saga, Bootstrap, Firebase
+技术栈：TypeScript, React, Redux, Redux-Saga, Bootstrap, Firebase
 
 实现的功能：
 
