@@ -1,7 +1,7 @@
 ---
 name: "刘扬"
 title: "个人简历"
-date: "2020-07-27"
+date: "2020-07-28"
 githubUsername: "so2liu"
 ---
 
@@ -45,7 +45,7 @@ githubUsername: "so2liu"
 - 根据地址计算运费（基于 Google Map 的 API）
 - 另一个后台网站[komari-back.eat-togo.com](https://komari-back.eat-togo.com)，可以更新菜单/图片、查看简单的订单统计结果
 
-## 业余练手项目经历
+## 业余练手项目
 
 ### 个人主页：[yangl.tech](https://www.yangl.tech)
 
@@ -86,15 +86,15 @@ githubUsername: "so2liu"
 **常用：**
 
 - TypeScript
-- React (Hooks Style), Next.js
+- React (Function 风格), Next.js
 - Redux, Redux-Saga
 - Bootstrap, Material UI
 - Jest
 - Firebase
 
-**用过：** React (Class Style), Mobx, Redux-Thunk, GraphQL, Express
+**用过：** React (Class 风格), Mobx, Redux-Thunk, GraphQL, Express
 
-**学了官方 Tutorial：** Webpack, Babel, React Native, Electron, PWA
+**学了官方教程：** Webpack, Babel, React Native, Electron, PWA
 
 **待学：** Web Assembly, RxJS, Flutter
 
@@ -105,6 +105,3 @@ githubUsername: "so2liu"
   - 中文（母语）
   - 德语（欧洲语言规范 C1）
   - 英文（大学六级）
-
-- 驾照
-  - 德国驾照
