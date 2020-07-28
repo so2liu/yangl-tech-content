@@ -33,7 +33,7 @@ githubUsername: "so2liu"
 
 ## 工作经历
 
-### 帮德国餐馆 Komari 做在线订餐网站 [komari.eat-togo.com](komari.eat-togo.com)
+### 帮德国餐馆 Komari 做在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
 
 技术栈：TypeScript, React, MaterialUI, Firebase
 
@@ -43,7 +43,7 @@ githubUsername: "so2liu"
 - 自动发送确认邮件
 - PayPal 在线支付
 - 根据地址计算运费（基于 Google Map 的 API）
-- 另一个后台网站[komari-back.eat-togo.com](komari-back.eat-togo.com)，可以更新菜单/图片、查看简单的订单统计结果
+- 另一个后台网站[komari-back.eat-togo.com](https://komari-back.eat-togo.com)，可以更新菜单/图片、查看简单的订单统计结果
 
 ## 业余练手项目经历
 
@@ -65,7 +65,7 @@ githubUsername: "so2liu"
 - jwt 注册和登录
 - 发文和修改、评论、关注
 
-### 丑丑番茄时钟 [ugly-pomodoro.web.app](ugly-pomodoro.web.app)
+### 丑丑番茄时钟 [ugly-pomodoro.web.app](https://ugly-pomodoro.web.app)
 
 技术栈：TypeScript, React, Redux, Redux-Saga, Bootstrap, Firebase
 
@@ -92,7 +92,7 @@ githubUsername: "so2liu"
 - Jest
 - Firebase
 
-**用过：** React (Class Style), Mobx, Redux-Thunk, GraphQL
+**用过：** React (Class Style), Mobx, Redux-Thunk, GraphQL, Express
 
 **学了官方 Tutorial：** Webpack, Babel, React Native, Electron, PWA
 
