@@ -81,6 +81,23 @@ githubUsername: "so2liu"
 
 **次选语言：** Python3, MATLAB
 
+## 技术栈
+
+**常用：**
+
+- TypeScript
+- React (Hooks Style), Next.js
+- Redux, Redux-Saga
+- Bootstrap, Material UI
+- Jest
+- Firebase
+
+**用过：** React (Class Style), Mobx, Redux-Thunk, GraphQL
+
+**学了官方 Tutorial：** Webpack, Babel, React Native, Electron, PWA
+
+**待学：** Web Assembly, RxJS, Flutter
+
 ## 其它
 
 - 自然语言
