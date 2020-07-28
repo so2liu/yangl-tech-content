@@ -47,7 +47,7 @@ githubUsername: "so2liu"
 
 ## 业余练手项目经历
 
-### 个人主页：[yangl.tech](yangl.tech)
+### 个人主页：[yangl.tech](https://www.yangl.tech)
 
 技术栈：TypeScript, Next.js GraphQL, AWS Hosting
 
