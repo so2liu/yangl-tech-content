@@ -216,7 +216,7 @@ console.log(xiaohuang.getName(), xiaohuang.getType()); // dog animal
 
 引用一张[超棒的图](https://zhuanlan.zhihu.com/p/22787302)
 
-![原型链基本思路](https://pic2.zhimg.com/v2-901202a60d3f6e9fcc90a69d06fe0282_b.png)
+![原型链基本思路.png](https://wx1.sbimg.cn/2020/08/08/oJ4Wd.png)
 
 ```js
 //原型链关系
