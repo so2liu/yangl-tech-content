@@ -24,12 +24,8 @@ githubUsername: "so2liu"
 2015-2019
 : **硕士，电子信息技术**; 斯图加特大学（德国）
 
-> 论文题目：CNN 在核磁共振的应用
-
 2010-2014
 : **本科，测控技术与仪器**; 哈尔滨工业大学
-
-> 论文题目：基于全球电磁场仿真的导弹导航辅助系统
 
 ## 工作经历
 
@@ -43,13 +39,13 @@ githubUsername: "so2liu"
 - 自动发送确认邮件
 - PayPal 在线支付
 - 根据地址计算运费（基于 Google Map 的 API）
-- 另一个后台网站[komari-back.eat-togo.com](https://komari-back.eat-togo.com)，可以更新菜单/图片、查看简单的订单统计结果
+- 另一个后台网站[komari-back.eat-togo.com](https://komari-back.eat-togo.com)，可以更新菜单/图片、订单统计
 
 ## 业余练手项目
 
 ### 个人主页：[yangl.tech](https://www.yangl.tech)
 
-技术栈：TypeScript, Next.js GraphQL, AWS Hosting
+技术栈：TypeScript, Next.js GraphQL, AWS Amplify
 
 实现的功能：
 
@@ -109,10 +105,10 @@ githubUsername: "so2liu"
 - 读过（且受益较多）的书
 
   - 现代 JavaScript 教程
+  - React 设计模式与最佳实践
   - 你不知道的 JavaScript 上、中册
   - 数据结构与算法 JavaScript 描述
   - 图解 HTTP
-  - React 设计模式与最佳实践
 
 - 在读的书
   - JavaScript 设计模式与开发实践
