@@ -27,6 +27,27 @@ githubUsername: "so2liu"
 2010-2014
 : **本科，测控技术与仪器**; 哈尔滨工业大学
 
+## 编程语言
+
+**首选语言：** TypeScript, JavaScript
+
+**次选语言：** Python3, MATLAB
+
+## 技术栈
+
+**常用：**
+
+- TypeScript
+- React (Function 风格), Next.js
+- Redux, Redux-Saga
+- Bootstrap, Material UI
+- Jest
+- Firebase
+
+**用过：** React (Class 风格), Mobx, Redux-Thunk, GraphQL, Express
+
+**学了官方教程：** Webpack, Babel, React Native, Electron, PWA
+
 ## 工作经历
 
 ### 帮德国餐馆 Komari 做在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
@@ -70,29 +91,6 @@ githubUsername: "so2liu"
 - Google 账号登录
 - 倒计时
 - 音乐提醒
-
-## 编程语言
-
-**首选语言：** TypeScript, JavaScript
-
-**次选语言：** Python3, MATLAB
-
-## 技术栈
-
-**常用：**
-
-- TypeScript
-- React (Function 风格), Next.js
-- Redux, Redux-Saga
-- Bootstrap, Material UI
-- Jest
-- Firebase
-
-**用过：** React (Class 风格), Mobx, Redux-Thunk, GraphQL, Express
-
-**学了官方教程：** Webpack, Babel, React Native, Electron, PWA
-
-**待学：** Web Assembly, RxJS, Flutter
 
 ## 其它
 
