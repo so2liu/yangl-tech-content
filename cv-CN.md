@@ -9,13 +9,11 @@ githubUsername: "so2liu"
 
 ---
 
-- **Email** [so2liu@gmail.com](mailto:so2liu@gmail.com)
-
-- **微信** so2liu
-
 - **电话** (+86) 189 3522 2283
-
+- **Email** [so2liu@gmail.com](mailto:so2liu@gmail.com)
+- **微信号** so2liu
 - **GitHub** [@so2liu](https://github.com/so2liu)
+- **主页** [yangl.tech](https://www.yangl.tech)
 
 ---
 
@@ -29,44 +27,45 @@ githubUsername: "so2liu"
 
 ---
 
-## 编程语言
-
-**首选语言：** TypeScript, JavaScript
-
-**次选语言：** Python3, MATLAB
-
----
-
 ## 技术栈
 
-**常用：**
+**常用**：
 
-- TypeScript
-- React (Function 风格), Next.js
-- Redux, Redux-Saga
-- Bootstrap, Material UI
-- Jest
-- Firebase
+- 语言： Javascript (ES6), TypeScript, Python
+- UI 库： React (Function 风格)
+- 组件库： Bootstrap, Material UI
+- 状态管理库： Redux, Redux-Saga
+- 测试库： Jest， Storybook
+- Serverless： Firebase 全家桶, AWS Amplify
+- SSR：Next.js
 
-**用过：** React (Class 风格), Mobx, Redux-Thunk, GraphQL, Express
+**用过**： React (Class 风格), Mobx, Redux-Thunk, GraphQL, Express
 
-**学了官方教程：** Webpack, Babel, React Native, Electron, PWA
+**学了官方教程**： Webpack, Babel, React Native, Electron, PWA
 
 ---
 
 ## 工作经历
 
-### 帮德国餐馆 Komari 做在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
+### 在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
 
-技术栈：TypeScript, React, MaterialUI, Firebase
+**背景**：在二月国内疫情初现，德国尚未重视的时候，我预测到德国也会关闭餐馆，开始地推在线订餐服务
 
-实现的功能有：
+**技术栈**：TypeScript, React, Material UI, Firebase
 
-- 订餐
-- 自动发送确认邮件
-- PayPal 在线支付
-- 根据地址计算运费（基于 Google Map 的 API）
-- 另一个后台网站[komari-back.eat-togo.com](https://komari-back.eat-togo.com)，可以更新菜单/图片、订单统计
+**功能**：
+
+- 移动端优先
+- 在线订餐、发送确认邮件、PayPal 在线支付、根据地址计算运费
+- 另一个后台网站可以更新菜单/图片、订单统计
+
+版本迭代：
+
+- 关闭餐馆的法令出台三天内，上线基于 react、bootstrap、firebase 的临时网站
+- 两周后，UI 库改成了移动端更加友好的 Material UI，进行了性能优化、使用体验的优化
+- 一个月后，全面改为 typescript，增加在线支付、运费计算、后台更新菜单等功能
+
+成果：签约 4 家餐馆，2020 年 3 月-7 月服务了约两万单订单，1.5 万台不同的设备
 
 ---
 
@@ -74,50 +73,48 @@ githubUsername: "so2liu"
 
 ### 个人主页：[yangl.tech](https://www.yangl.tech)
 
-技术栈：TypeScript, Next.js GraphQL, AWS Amplify
+**目标**：沉淀自己的技术总结，熟悉 SSR 和 GitHub 的 API
 
-实现的功能：
+**技术栈**：TypeScript, Next.js, GraphQL, AWS Amplify
+
+**功能**：
 
 - 用 Next.js 来生成静态网页
 - 用 GraphQL 来读取 GitHub 上另外一个项目的内容，并自动 rebuild 最新版本
 
 ### 小型博客网站的前/后端 [blog-app](https://blog-app-yangl.herokuapp.com/)
 
-技术栈：TypeScript, React, Express
+**目标**：了解服务器端基础知识、实现 GraphQL
 
-实现的功能：
+**技术栈**：TypeScript, React, Express
 
-- jwt 注册和登录
-- 发文和修改、评论、关注
+**功能**：jwt 注册和登录、发文和修改、评论、关注
 
 ### 丑丑番茄时钟 [ugly-pomodoro.web.app](https://ugly-pomodoro.web.app)
 
-技术栈：TypeScript, React, Redux, Redux-Saga, Bootstrap, Firebase
+**技术栈**：TypeScript, React, Redux, Redux-Saga, Bootstrap, Firebase, Storybook
 
-实现的功能：
-
-- Google 账号登录
-- 倒计时
-- 音乐提醒
+**功能**：Google 账号登录、倒计时、音乐提醒
 
 ---
 
 ## 其它
 
-- 自然语言
+### 读过（且受益较多）的书
 
-  - 中文（母语）
-  - 德语（欧洲语言规范 C1）
-  - 英文（大学六级）
+- 现代 JavaScript 教程
+- React 设计模式与最佳实践
+- 你不知道的 JavaScript 上、中册
+- 数据结构与算法 JavaScript 描述
+- 图解 HTTP
 
-- 读过（且受益较多）的书
+### 在读的书
 
-  - 现代 JavaScript 教程
-  - React 设计模式与最佳实践
-  - 你不知道的 JavaScript 上、中册
-  - 数据结构与算法 JavaScript 描述
-  - 图解 HTTP
+- JavaScript 设计模式与开发实践
+- 剑指 offer
 
-- 在读的书
-  - JavaScript 设计模式与开发实践
-  - 剑指 offer
+### 自然语言
+
+- 中文（母语）
+- 德语（欧洲语言规范 C1）
+- 英文（大学六级）
