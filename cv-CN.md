@@ -35,7 +35,7 @@ githubUsername: "so2liu"
 - UI 库： React (Function 风格)
 - 组件库： Bootstrap, Material UI
 - 状态管理库： Redux, Redux-Saga
-- 测试库： Jest， Storybook
+- 测试库： Jest, Storybook
 - Serverless： Firebase 全家桶, AWS Amplify
 - SSR：Next.js
 
@@ -49,7 +49,7 @@ githubUsername: "so2liu"
 
 ### 在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
 
-**背景**：在二月国内疫情初现，德国尚未重视的时候，我预测到德国也会关闭餐馆，开始地推在线订餐服务
+**背景**：在二月国内疫情初现，德国尚未重视的时候，我预测到德国也会关闭餐馆，开始推广在线订餐服务
 
 **技术栈**：TypeScript, React, Material UI, Firebase
 
@@ -59,13 +59,13 @@ githubUsername: "so2liu"
 - 在线订餐、发送确认邮件、PayPal 在线支付、根据地址计算运费
 - 另一个后台网站可以更新菜单/图片、订单统计
 
-版本迭代：
+**版本迭代**：
 
 - 关闭餐馆的法令出台三天内，上线基于 react、bootstrap、firebase 的临时网站
 - 两周后，UI 库改成了移动端更加友好的 Material UI，进行了性能优化、使用体验的优化
-- 一个月后，全面改为 typescript，增加在线支付、运费计算、后台更新菜单等功能
+- 一个月后，全面改为 TypeScript，增加在线支付、运费计算、后台更新菜单等功能
 
-成果：签约 4 家餐馆，2020 年 3 月-7 月服务了约两万单订单，1.5 万台不同的设备
+**成果**：签约 4 家餐馆，2020 年 3 月-7 月成交约两万单订单，1.5 万台不同的设备
 
 ---
 
@@ -80,7 +80,8 @@ githubUsername: "so2liu"
 **功能**：
 
 - 用 Next.js 来生成静态网页
-- 用 GraphQL 来读取 GitHub 上另外一个项目的内容，并自动 rebuild 最新版本
+- 用 GraphQL 来读取 GitHub 上另外一个项目的 markdown 内容
+- 目标项目更新时，触发 GitHub Hooks 和 AWS Hooks， 自动 rebuild
 
 ### 小型博客网站的前/后端 [blog-app](https://blog-app-yangl.herokuapp.com/)
 
