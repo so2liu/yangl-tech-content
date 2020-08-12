@@ -105,3 +105,15 @@ githubUsername: "so2liu"
   - 中文（母语）
   - 德语（欧洲语言规范 C1）
   - 英文（大学六级）
+
+- 读过（且受益较多）的书
+
+  - 现代 JavaScript 教程
+  - 你不知道的 JavaScript 上、中册
+  - 数据结构与算法 JavaScript 描述
+  - 图解 HTTP
+  - React 设计模式与最佳实践
+
+- 在读的书
+  - JavaScript 设计模式与开发实践
+  - 剑指 offer
