@@ -7,7 +7,7 @@ date: "2020-08-13"
 
 ---
 
-> 这篇较基础
+> 第一部分较基础
 
 ---
 
@@ -22,7 +22,7 @@ date: "2020-08-13"
 
 ## JavaScript 的调度（schedule）
 
-[![34m7h.md.png](https://wx2.sbimg.cn/2020/08/13/34m7h.md.png)](https://sbimg.cn/image/34m7h)
+![Event Loop](https://wx2.sbimg.cn/2020/08/13/34m7h.png)
 
 ### macrotask queue
 
@@ -89,32 +89,49 @@ count();
 
 ## 再回到 event loop
 
-![35xVY.png](https://wx2.sbimg.cn/2020/08/13/35xVY.png)
+![Event Loop Details](https://wx2.sbimg.cn/2020/08/13/35xVY.png)
 
 - 这种调度方式确保了 microtask queue 的环境基本相同（没有鼠标移动、新的网络数据什么的）
 - 如果想异步、但是在渲染 UI 之前执行一个函数，用`queueMicrotask`
+
+### 宏任务
+
+script 的全部代码、setTimeout、setInterval、I/O、UI Rendering、setImmediate (nodejs 独有)
+
+### 微任务
+
+Promise、MutationObserver、Process.nextTick (nodejs 独有)
 
 ## 最后，年轻人，想不想来一道题目呢
 
 ```javascript
 console.log(1);
 
-setTimeout(() => {
+async function async1() {
+  await async2();
+  console.log(5);
+}
+async function async2() {
   console.log(2);
+}
+async1();
+
+setTimeout(() => {
+  console.log(7);
   Promise.resolve().then(() => {
-    console.log(3);
+    console.log(8);
   });
 }, 0);
 
 new Promise((resolve) => {
-  console.log(4);
+  console.log(3);
   resolve();
 }).then(() => {
-  console.log(5);
-  setTimeout(() => console.log(6), 0);
+  console.log(6);
+  setTimeout(() => console.log(9), 0);
 });
 
-console.log(7);
+console.log(4);
 
-// 1-4-7-5-2-3-6
+// 123456789
 ```
