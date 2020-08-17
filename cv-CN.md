@@ -1,7 +1,7 @@
 ---
 name: "刘扬"
 title: "个人简历"
-date: "2020-07-28"
+date: "2020-08-17"
 githubUsername: "so2liu"
 ---
 
@@ -20,7 +20,7 @@ githubUsername: "so2liu"
 ## 教育经历
 
 2015-2019
-: **硕士，电子信息技术**; 斯图加特大学（德国）
+: **硕士，电子信息技术（德语授课）**; 斯图加特大学（德国）
 
 2010-2014
 : **本科，测控技术与仪器**; 哈尔滨工业大学
@@ -32,10 +32,10 @@ githubUsername: "so2liu"
 **常用**：
 
 - 语言： Javascript (ES6), TypeScript, Python
-- UI 库： React (Function 风格)
-- 组件库： Bootstrap, Material UI
-- 状态管理库： Redux, Redux-Saga
-- 测试库： Jest, Storybook
+- 状态 => UI： React (Function 风格)
+- 组件： Bootstrap, Material UI
+- 状态管理： Redux, Redux-Saga
+- 测试： Jest, Storybook
 - Serverless： Firebase 全家桶, AWS Amplify
 - SSR：Next.js
 
@@ -49,7 +49,7 @@ githubUsername: "so2liu"
 
 ### 在线订餐网站 [komari.eat-togo.com](https://komari.eat-togo.com)
 
-**背景**：在二月国内疫情初现，德国尚未重视的时候，我预测到德国也会关闭餐馆，开始推广在线订餐服务
+**背景**：在 2020 年二月国内疫情初现，德国尚未重视的时候，我预测到德国也会关闭餐馆，开始推广在线订餐服务
 
 **技术栈**：TypeScript, React, Material UI, Firebase
 
