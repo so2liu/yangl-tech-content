@@ -3,7 +3,7 @@ title: "React Hooks的使用: display: none和isShow = false，到底哪家强"
 date: "2020-08-17"
 ---
 
-# React Hooks 的使用: `display: none`和`isShow = false`，到底哪家强？
+# React Hooks 的使用: `display: none`和`isShow = false`，隐藏元素到底谁更快一些？
 
 ---
 
